@@ -1,0 +1,7 @@
+version: "3"
+services:
+  node:
+    image: node:lts-alpine
+    tty: true
+    volumes:
+      - ./:/mnt
